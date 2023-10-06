@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prime Numbers Between 1 and 100</title>
+</head>
+<body>
+    <h1>Prime Numbers Between 1 and 100</h1>
+    <script>
+        let count = 0;
+        let i = 2;
+        while (i <= 100) {
+            let isPrime = true;
+            let j = 2;
+            while (j <= Math.sqrt(i)) {
+                if (i % j == 0) {
+                    isPrime = false;
+                    break;
+                }
+                j++;
+            }
+            if (isPrime) {
+                count++;
+                document.write(i + "<br>");
+            }
+            i++;
+        }
+    </script>
+</body>
+</html>
