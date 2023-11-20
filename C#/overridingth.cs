@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp192
+namespace ConsoleApp192.
 {
 
     public class Animal
     {
         public virtual void eat()
         {
-            Console.WriteLine("Eating...");
+            Console.WriteLine("Eating..."); 
         }
     }
     public class Dog : Animal
