@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="MasterPage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+        }
+        .auto-style2 {
+            font-size: x-large;
+        }
+        .auto-style3 {
+            background-color: #9999FF;
+        }
+        .newStyle1 {
+            font-family: "Arial Black";
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="auto-style1">
+
+            <span class="auto-style2"><strong><span class="auto-style3">MKPITS SOLUTIONS</span></strong></span><br />
+            <strong>
+            <asp:HyperLink ID="HyperLink1" runat="server" CssClass="newStyle1" NavigateUrl="Home.aspx">Home</asp:HyperLink>
+            </strong>&nbsp;&nbsp; <strong>
+            <asp:HyperLink ID="HyperLink2" runat="server" CssClass="newStyle1" NavigateUrl="Aboutus.aspx">About Us</asp:HyperLink>
+            </strong>&nbsp;&nbsp; <strong>
+            <asp:HyperLink ID="HyperLink3" runat="server" CssClass="newStyle1" NavigateUrl="Contacts.aspx">Contacts</asp:HyperLink>
+            </strong>
+
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <p>
+                <br />
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+            <p>
+            </p>
+        </asp:ContentPlaceHolder>
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="https://mkpits.in/">@MKPITS(Reference)</asp:HyperLink>
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+﻿<%@ Page Title="Contact" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="MasterPage1.Contact" %>
+
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <h3 style="box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(51, 51, 51); margin-top: 20px; margin-bottom: 10px; font-size: 24px; position: relative; z-index: 3; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Dharampeth Centre</h3>
+<div class="divider clearfix" style="box-sizing: border-box; width: 463.4px; margin: 20px auto 15px; position: relative; height: 1px; backface-visibility: hidden; transform: translateZ(0px) scale(1, 1); z-index: 3; color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+</div>
+<p style="box-sizing: border-box; margin: 0px 0px 15px; font-size: 16px; color: rgb(102, 102, 102); line-height: 1.4; position: relative; z-index: 3; clear: both; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+    2nd Floor, Shivaji Complex,<br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    Near Coffee House &amp; Bank of Baroda,<br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    West High Court Road, Opp. Titan Eye,<br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    Dharampeth, Nagpur, Maharashtra 440010<br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    Tel: 0712 2557946<br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    Mobile: 90281 57794, 9595 321479<br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    Whatsapp<span>&nbsp;</span><a href="http://wa.me/919028157794" style="box-sizing: border-box; background-color: transparent; color: rgb(51, 122, 183); text-decoration: none; position: relative; z-index: 3;"><img alt="whatsapp to Atlanta Computer Institute" height="32" src="https://www.atlantacomputer.in/images/whatsapp_atlanta_dharampeth_nagpur1.png" style="box-sizing: border-box; border: 0px; vertical-align: middle; position: relative; z-index: 3;" width="32" /></a><br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    email: atlantaworld@gmail.com<br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    website www.atlantacomputer.in<br style="box-sizing: border-box; position: relative; z-index: 3;" />
+    ( 10 min walk from Shankar Nagar Metro Station )</p>
+</asp:Content>

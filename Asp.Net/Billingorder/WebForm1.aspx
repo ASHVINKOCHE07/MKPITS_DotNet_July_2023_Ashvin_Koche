@@ -12,7 +12,7 @@
             text-align: center;
         }
         .auto-style2 {
-            width: 99%;
+            width: 91%;
             border-collapse: collapse;
             border-style: solid;
             border-width: 1px;
@@ -48,7 +48,7 @@
         .auto-style8 {
             height: 29px;
             text-align: center;
-            width: 731px;
+            width: 650px;
             background-color: #FFFFFF;
         }
         .auto-style11 {
@@ -60,12 +60,12 @@
         }
         .auto-style13 {
             width: 186px;
-            height: 33px;
+            height: 176px;
             background-color: #FFFFCC;
         }
         .auto-style14 {
             height: 32px;
-            width: 731px;
+            width: 650px;
             background-color: #FFFFFF;
         }
         .auto-style15 {
@@ -74,22 +74,37 @@
         }
         .auto-style16 {
             height: 33px;
-            width: 731px;
+            width: 650px;
             background-color: #FFFFFF;
         }
         .auto-style17 {
             float: left;
-            width: 883px;
-            height: 243px;
+            width: 879px;
+            height: 320px;
             margin-top: 0px;
+        }
+        .auto-style18 {
+            height: 176px;
+            width: 650px;
+            background-color: #FFFFFF;
+        }
+        .newStyle2 {
+            padding: inherit;
+            margin: inherit;
+            border: thick solid #CC0000;
+            background-color: #FFCCCC;
+            font-family: "Segoe Script";
+            font-size: x-large;
+            font-weight: bold;
+            font-style: oblique;
         }
     </style>
 </head>
-<body style="width: 878px; height: 648px">
+<body style="width: 965px; height: 808px">
     <form id="form1" runat="server">
         <div class="auto-style1">
             <h4>
-            <strong class="auto-style4">&nbsp;&nbsp; Billing Order&nbsp;&nbsp;&nbsp;&nbsp; </strong></h4>
+            <strong class="newStyle2">&nbsp;&nbsp; Billing Order&nbsp;&nbsp;&nbsp;&nbsp; </strong></h4>
         </div>
             <strong class="auto-style4">
         <img alt="" class="auto-style17" src="electronics-store-sale-shopping-shop-with-offers-vector-28045120.jpg" /></strong><table class="auto-style2" align="left">
@@ -144,7 +159,7 @@
                 <td class="auto-style13">
                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                 </td>
-                <td class="auto-style16"></td>
+                <td class="auto-style18"></td>
             </tr>
         </table>
     </form>
